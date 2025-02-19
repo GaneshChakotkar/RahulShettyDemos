@@ -2,6 +2,8 @@
 
 2. open git bash in a folder from where you want to commit/share your file
 right click , open git bash here
+                  or
+open cmd , write cd pathOfFile 
 
 3. git config --global user.name "GaneshChakotkar"		//username check
 
