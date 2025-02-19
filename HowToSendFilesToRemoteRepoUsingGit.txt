@@ -1,0 +1,29 @@
+1. installation of git
+
+2. open git bash in a folder from where you want to commit/share your file
+right click , open git bash here
+
+3. git config --global user.name "GaneshChakotkar"		//username check
+
+4. git config --global user.email "ganeshchakotkar1999@gmail.com"
+
+5. git remote add origin https://github.com/GaneshChakotkar/RahulShettyDemos.git
+//repo adress
+
+6. git remote set-url origin https://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@github.com/GaneshChakotkar/RahulShettyDemos.git/
+
+// format  https://TokenNumber@github.com/Username/repoName.git/
+// Token number valid for 30 days only
+// for token number click on setting on remote repo
+// click on <>Developer Setting
+// click on personal access token then
+// click on Tokens(Classic)
+// copy token
+
+7. git init
+8. git status	//optional for check which files are ready for staging
+9. git add .	// added to staging area
+10. git commit -m "message if any"	// added to local repo
+11. git push -u origin mster		// finaly added to remote repo
+
+
